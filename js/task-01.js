@@ -1,0 +1,15 @@
+const categoriesCount = document.getElementsByClassName("item");
+console.log(`Number of categories: ${categoriesCount.length}`);
+const categoryTitle = document.getElementsByTagName("h2");
+console.log(`Category: ${categoryTitle[0].textContent}`);
+const firstCategory = document.getElementsByClassName("item")[0];
+const firstListCount = firstCategory.getElementsByTagName("li");
+console.log(`Elements: ${firstListCount.length}`);
+console.log(`Category: ${categoryTitle[1].textContent}`);
+const secondCategory = document.getElementsByClassName("item")[1];
+const secondListCount = secondCategory.getElementsByTagName("li");
+console.log(`Elements: ${secondListCount.length}`);
+console.log(`Category: ${categoryTitle[2].textContent}`);
+const thirdCategory = document.getElementsByClassName("item")[2];
+const thirdListCount = thirdCategory.getElementsByTagName("li");
+console.log(`Elements: ${thirdListCount.length}`);
