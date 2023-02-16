@@ -22,24 +22,3 @@ for (let i = 0; i < images.length; i++) {
 src="${images[i].url}"/></li>`
   );
 }
-
-// let html =
-//   "<img src='https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='White and Black Long Fur Cat'>";
-// ul.insertAdjacentHTML("afterbegin", html);
-
-// let newArray = [];
-// for (let i = 0; i < images.length; i++) {
-//   newArray[i] = document.createElement("img");
-//   newArray[i].setAttribute(
-//     "src",
-//     "https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-//   );
-// }
-// document.querySelector(".gallery").append(...newArray);
-// console.log(newArray);
-
-// console.log(newElem);
-// console.log(img);
-
-// document.querySelector("gallery").appendChild(newElem);
-// newElem.appendChild(img);
