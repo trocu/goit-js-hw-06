@@ -9,10 +9,13 @@ function loginForm(event) {
     elements: { email, password },
   } = event.currentTarget;
 
-  if (!email.value || !password.value) {
+  if (email.value === "" || password.value == "") {
     alert("Please complete all fields!");
   }
-  console.log(`Email: ${email.value} Password: ${password.value}`);
-  console.log(event.currentTarget.event.email);
+  const userData = {
+    email: email.value,
+    password: password.value,
+  };
+  console.log(userData);
   event.currentTarget.reset();
 }
