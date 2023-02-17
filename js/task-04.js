@@ -11,12 +11,3 @@ incrementBtn.addEventListener("click", () => {
   counterValue += 1;
   counter.innerHTML = counterValue;
 });
-
-// decrementBtn.onclick = function () {
-//   counterValue -= 1;
-//   counter.innerHTML = counterValue;
-// };
-// incrementBtn.onclick = function () {
-//   counterValue += 1;
-//   counter.innerHTML = counterValue;
-// };
