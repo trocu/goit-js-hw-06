@@ -23,6 +23,9 @@ button {
   cursor: pointer;
 }
 .gallery {
+  margin: 0 auto;
+  padding-inline: 90px;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -33,6 +36,7 @@ button {
   flex-basis: calc((100% - 60px) / 3);
 }
 .gallery-img {
+  display: block;
   width: 320px;
   height: 180px;
   object-fit: cover;
