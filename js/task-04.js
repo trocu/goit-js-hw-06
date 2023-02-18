@@ -5,9 +5,9 @@ const counter = document.querySelector("#value");
 let counterValue = 0;
 decrementBtn.addEventListener("click", () => {
   counterValue -= 1;
-  counter.innerHTML = counterValue;
+  counter.textContent = counterValue;
 });
 incrementBtn.addEventListener("click", () => {
   counterValue += 1;
-  counter.innerHTML = counterValue;
+  counter.textContent = counterValue;
 });
