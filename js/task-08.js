@@ -12,7 +12,7 @@ function loginForm(event) {
     email: email.value,
     password: password.value,
   };
-  if (email.value === "" || password.value == "") {
+  if (email.value === "" || password.value === "") {
     return alert("Please complete all fields!");
   }
   console.log(userData);
